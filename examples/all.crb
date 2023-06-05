@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "../rubik.h"
+
+main
+    i32 i = 0;
+    for i in range(10) do
+        if i % 2 == 0 then
+	    continue
+	elsif i % 9 == 0 then
+	    break
+	end
+        printf("%d\n", i);
+    end
+    return 0;
+end

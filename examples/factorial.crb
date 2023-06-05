@@ -1,0 +1,15 @@
+#include "stdio.h"
+#include "../rubik.h"
+
+
+def_i32 factorial(i32 n) {
+    if n <= 1 then
+        return 1;
+    end
+    return n * factorial(n -1);
+}
+
+main
+    printf("%d\n", factorial(6));
+    return 0;
+end
